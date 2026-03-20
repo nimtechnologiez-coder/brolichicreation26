@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styleour/Services.css";
 import tickIcon from "../images/check-broken.webp";
-import bg1 from "../images/signatureFrancine.webp";
+
 import back2 from "../images/signatureJOHN.webp";
 import bg3 from "../images/signaturePHILIMON.webp";
 import materials from "../images/material4.webp";
@@ -17,7 +17,7 @@ const Tick = ({ text }) => (
 );
  
 const Services = () => {
-  const images = [bg1, back2, bg3];
+  const images = [back2, back2, bg3];
   const [currentIdx, setCurrentIdx] = useState(0);
  
   useEffect(() => {
