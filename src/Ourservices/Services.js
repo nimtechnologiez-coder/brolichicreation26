@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styleour/Services.css";
 import tickIcon from "../images/check-broken.webp";
-import bg1 from "../images/signaturefrancine.webp";
+import bg1 from "../images/dhanush.webp";
 import bg2 from "../images/signaturejohn.webp";
 import bg3 from "../images/signaturephilimon.webp";
 import materials from "../images/material4.webp";
