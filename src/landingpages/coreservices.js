@@ -1,11 +1,11 @@
 import React from "react";
 import "../style/coreservices.css";
 
-import s1 from "../images/s1.png";
-import s2 from "../images/s2.png";
-import s3 from "../images/s3.png";
-import s4 from "../images/s4.png";
-import iconImg from "../images/packageicon.png";
+import s1 from "../images/s1.webp";
+import s2 from "../images/s2.webp";
+import s3 from "../images/s3.webp";
+import s4 from "../images/s4.webp";
+import iconImg from "../images/packageicon.webp";
 
 const servicesData = [
   { img: s1, title: "Building Materials Supply" },

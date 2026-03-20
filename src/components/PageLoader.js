@@ -11,7 +11,7 @@ const PageLoader = () => {
     setIsLoading(true);
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 450); // Slightly longer to appreciate the animation
+    }, 600); // Slightly longer to appreciate the animation
 
     return () => clearTimeout(timer);
   }, [location]);

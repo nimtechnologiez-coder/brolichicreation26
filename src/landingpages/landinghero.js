@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/landinghero.css";
-import bgImage from "../images/landingbackground.png";
+import bgImage from "../images/landingbackground.webp";
 
 const LandingHero = () => {
   return (

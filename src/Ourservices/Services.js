@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "../Styleour/Services.css";
-import tickIcon from "../images/check-broken.png";
-import bg1 from "../images/signatureFrancine.WebP";
-import bg2 from "../images/signatureJOHN.WebP";
-import bg3 from "../images/signaturePHILIMON.WebP";
-import materials from "../images/material4.png";
-import transport from "../images/materials1.png";
-import vehicle from "../images/materials2.png";
-import customs from "../images/materials3.png";
+import tickIcon from "../images/check-broken.webp";
+import bg1 from "../images/signatureFrancine.webp";
+import bg2 from "../images/signatureJOHN.webp";
+import bg3 from "../images/signaturePHILIMON.webp";
+import materials from "../images/material4.webp";
+import transport from "../images/materials1.webp";
+import vehicle from "../images/materials2.webp";
+import customs from "../images/materials3.webp";
 import Footer from "../components/Footer";
 const Tick = ({ text }) => (
   <div className="tickos">

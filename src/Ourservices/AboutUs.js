@@ -3,14 +3,14 @@ import { FaLink, FaEnvelope } from "react-icons/fa";
 import "../Styleour/AboutUs.css";
 
 // Leadership Images
-import Alexander from "../images/Alexander.png";
-import Sarah from "../images/Sarah.png";
-import Marcus from "../images/Marcus.jpeg";
-import Team from "../images/Team.png";
+import Alexander from "../images/Alexander.webp";
+import Sarah from "../images/Sarah.webp";
+import Marcus from "../images/Marcus.webp";
+import Team from "../images/Team.webp";
 import Footer from "../components/Footer";
-import journey from "../images/journey.png";
-import eye from "../images/eye.png";
-import eyee from "../images/eyee.png";
+import journey from "../images/journey.webp";
+import eye from "../images/eye.webp";
+import eyee from "../images/eyee.webp";
 import customClearanceVideo from "../videos/Coustom Clearance & Transportation.mp4";
 import constructionAdVideo from "../videos/CONSTRUCTION AD.mp4";
 

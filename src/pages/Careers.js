@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Careers.css';
 
-import checkgreen from '../images/check-green.png';
-import checkorange from '../images/check-orange.png';
+import checkgreen from '../images/check-green.webp';
+import checkorange from '../images/check-orange.webp';
 import { 
   ChevronDown, 
   ChevronUp, 

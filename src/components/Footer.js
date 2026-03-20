@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../images/brolichilogo.png';
+import logo from '../images/brolichilogo.webp';
 import { 
   MapPin, 
   Phone, 
