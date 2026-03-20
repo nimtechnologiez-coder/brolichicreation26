@@ -39,11 +39,11 @@ const WhoWe = () => {
 
         {/* RIGHT */}
         <div className="whowe-right">
-          <div className="img-grid">
-  <img src={img1} className="img big left-top" />
-  <img src={img2} className="img small right-top" />
-  <img src={img3} className="img small left-bottom" />
-  <img src={img4} className="img big right-bottom" />
+ <div className="img-grid">
+  <img src={img1} alt="construction material 1" className="img big left-top" />
+  <img src={img2} alt="construction material 2" className="img small right-top" />
+  <img src={img3} alt="construction material 3" className="img small left-bottom" />
+  <img src={img4} alt="construction material 4" className="img big right-bottom" />
 </div>
         </div>
 

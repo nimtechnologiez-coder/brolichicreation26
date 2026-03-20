@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import Navbar from '../components/Navbar';
+
 import CTASection from '../landingpages/readyland';
-import logo from '../images/logo.png';
+
 import { 
   Package,
 } from 'lucide-react';

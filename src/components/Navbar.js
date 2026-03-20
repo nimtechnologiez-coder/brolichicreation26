@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { NavLink, Link, useLocation } from 'react-router-dom';
+import { NavLink, Link, } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 import logo from '../images/brolichilogo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const activePage = location.pathname === '/' ? 'home' : 
-                     location.pathname === '/careers' ? 'careers' : '';
+  // const activePage = location.pathname === '/' ? 'home' : 
+  //                    location.pathname === '/careers' ? 'careers' : '';
 
   return (
     <nav className="main-nav">

@@ -1,18 +1,13 @@
 import React, { useState } from 'react';
 import './Careers.css';
-import logo from '../images/logo.png';
-import Navbar from '../components/Navbar';
+
 import checkgreen from '../images/check-green.png';
 import checkorange from '../images/check-orange.png';
 import { 
   ChevronDown, 
   ChevronUp, 
   MapPin, 
-  CheckCircle2, 
-  Instagram, 
-  Linkedin, 
-  Facebook, 
-  Twitter 
+
 } from 'lucide-react';
 import Footer from '../components/Footer';
 
