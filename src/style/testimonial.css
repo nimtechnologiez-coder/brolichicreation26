@@ -1,0 +1,130 @@
+.testimonials {
+  padding: 20px 5%;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+/* HEADER */
+.tages {
+  display: block;
+  text-align: center;
+  color: #ff7a00;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+}
+
+/* STARS */
+.stars {
+  display: flex;
+  gap: 6px; /* 👈 control spacing here */
+}
+
+.star-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* TEXT */
+.text {
+  color: #64748b;
+  font-style: italic;
+  margin-top: 25px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+/* USER */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  background: #0f172a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.user h4 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 20px;
+}
+
+.user span {
+  font-size: 16px;
+  color: #64748b;
+}
+
+/* BUTTON */
+.btn-wrap {
+  margin-top: 40px;
+}
+
+.btn-testimonial {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #0f172a;
+  background: transparent;
+  color: #0f172a;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-testimonial:hover {
+  background: #0f172a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+
+
+
+@media (max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+ .tages{
+  margin-top: -50px;
+}
+  .title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+}

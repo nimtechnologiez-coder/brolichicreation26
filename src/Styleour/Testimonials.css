@@ -1,0 +1,329 @@
+.testimonials-page {
+    background: #f8fafc;
+}
+ 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+ 
+/* HERO SECTION */
+.testimonials-hero {
+    padding: 80px 0 10px;
+    text-align: left;
+    background: #f8fafc;
+}
+ 
+.section-subtitle-orange {
+    color: #f97316;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+ 
+.testimonials-title {
+    color: #0f172a;
+    font-size: 56px;
+    margin-bottom: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+ 
+.testimonials-subtitle {
+    color: #1e293b;
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 800px;
+    font-weight: 500;
+}
+ 
+ 
+ 
+ 
+/* GRID SECTION */
+.testimonials-grid-section {
+    padding: 10px 0 20px;
+    background-color: #f8fafc;
+}
+ 
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 80px;
+    /* Branded wide gap */
+    max-width: 1300px;
+    margin: 0 auto;
+}
+ 
+/* CARD */
+.testimonial-card {
+    background: #ffffff;
+    border: 1px solid #f1f5f9;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    /* Balanced desktop height */
+    height: 100%;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    /* box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05); */
+    border: 2px solid #e2e8f0;
+}
+ 
+ 
+ 
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+}
+ 
+.testimonial-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+ 
+.category-pill {
+    background: #fff7ed;
+    /* Light orange bg */
+    color: #f97316;
+    /* Bold orange text */
+    border: 1.5px solid #f97316;
+    /* Clean orange border as per close-up */
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 700;
+    /* Bold for branding */
+}
+ 
+.stars {
+    display: flex;
+    gap: 6px;
+}
+ 
+.testimonial-text {
+    color: #475569;
+    font-size: 16px;
+    /* High-fidelity text size */
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 35px;
+    /* Spacing before author */
+    font-weight: 550;
+    flex: 1;
+    /* Pushes author section to bottom */
+}
+ 
+/* AUTHOR */
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: auto;
+    /* Ensures all authors are aligned at card bottom */
+}
+ 
+.author-avatar {
+    width: 54px;
+    height: 54px;
+    background: #0f172a;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+ 
+.author-info h4 {
+    color: #0f172a;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+ 
+.author-role {
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+ 
+.author-company {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 0;
+}
+ 
+/* CTA Styles preserved from common theme */
+.cta {
+    background: linear-gradient(90deg, #0f2a4a, #2f5ea8);
+    padding: 40px 20px 80px;
+    /* Reduced top padding for tighter feel */
+    text-align: center;
+    color: #fff;
+}
+ 
+.cta h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 650;
+}
+ 
+.cta p {
+    color: #d1d5db;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 18px;
+}
+ 
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+ 
+.btn-orange {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #f97316;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+ 
+.btn-orange:hover {
+    background: #ea580c;
+    transform: translateY(-2px);
+}
+ 
+.btn-outline {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+ 
+.btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+ 
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 25px;
+    }
+ 
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+ 
+    .testimonial-card {
+        padding: 30px;
+        min-height: auto;
+        /* Let text determine height on mobile */
+    }
+ 
+    .testimonials-title {
+        font-size: 42px;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .testimonials-hero {
+        padding: 60px 0 10px;
+    }
+ 
+    .testimonials-title {
+        font-size: 32px;
+    }
+ 
+    .testimonials-subtitle {
+        font-size: 18px;
+    }
+ 
+    .testimonial-card {
+        padding: 25px;
+        min-height: auto;
+        /* Resetting user's manual min-height for mobile */
+    }
+ 
+    .cta h1 {
+        font-size: 32px;
+    }
+ 
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .btn-orange,
+    .btn-outline {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 320px;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+}
+ 
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+ 
+    .testimonial-card {
+        padding: 20px;
+    }
+ 
+    .testimonial-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+ 
+    .category-pill {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+ 
+    .testimonial-author {
+        gap: 12px;
+    }
+ 
+    .author-avatar {
+        width: 44px;
+        height: 44px;
+        font-size: 16px;
+    }
+ 
+    .author-info h4 {
+        font-size: 16px;
+    }
+}
+ 

@@ -1,0 +1,140 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #fff;
+  border-bottom: 1px solid #EAECF0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.nav-logo img {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #101828;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.nav-links a.active {
+  background-color: #FF8A00;
+  color: white;
+  font-weight: 700 !important;
+}
+
+.nav-links a.nav-btn {
+  background-color: transparent;
+  color: #101828;
+}
+
+.nav-links a.active-btn {
+  background-color: #FF8A00;
+  color: white;
+  font-weight: 700 !important;
+}
+
+.contact-btn {
+  background-color: transparent;
+  color: #101828;
+  border: 2px solid #000000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600 !important;
+  cursor: pointer;
+  font-size: 1rem !important;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: #101828;
+    cursor: pointer;
+    z-index: 2000;
+  }
+
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background: #fff;
+    z-index: 1500;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 5% 40px;
+  }
+
+  .mobile-overlay.open {
+    right: 0;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .mobile-nav-links a {
+    text-decoration: none;
+    color: #101828;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #F2F4F7;
+  }
+
+  .mobile-nav-links a.active {
+    color: #FF8A00;
+    font-weight: 700 !important;
+  }
+
+  .mobile-contact-btn {
+    margin-top: 1rem;
+    width: 100%;
+    border-color: #000000 !important;
+    color: #000000 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+
+  .mobile-overlay {
+    display: none;
+  }
+}

@@ -1,0 +1,487 @@
+:root {
+  --primary-orange: #FF8A00;
+  --primary-orange-hover: #E67C00;
+  --dark-blue: #101828;
+  --cta-bg: #1A3C8E;
+  --footer-bg: #0B1623;
+  --text-gray: #566479;
+  --light-gray: #F9FAFB;
+  --border-gray: #EAECF0;
+  --tag-orange-bg: #FFF4ED;
+  --tag-orange-text: #FF8A00;
+  --tag-gray-bg: #F2F4F7;
+  --tag-gray-text: #000000;
+  --tag-green-bg: #ECFDF3;
+  --tag-green-text: #027A48;
+}
+
+.careers-container {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-blue);
+  background-color: #fff;
+}
+
+/* Navbar */
+/* .careers-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #fff;
+  border-bottom: 1px solid var(--border-gray);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.careers-btn {
+  background-color: var(--primary-orange);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.contact-btn {
+  background-color: transparent;
+  color: var(--dark-blue);
+  border: 2px solid black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+} */
+
+/* Hero Section */
+.hero-section {
+  padding: 4rem 5%;
+}
+
+.sub-tag {
+  color: var(--primary-orange);
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: justify;
+  display: block;
+  
+}
+
+.section-title{
+  margin-bottom: 2%;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: justify;
+}
+
+.hero-section p {
+  font-size: 25px;
+  font-weight: 500;
+  max-width: 900px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Job Board */
+.job-board {
+  padding: 1rem 5%;
+  margin-bottom: 10px;
+}
+
+.job-board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.job-count-tag {
+  background-color: var(--tag-green-bg);
+  color: var(--tag-green-text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #D1FADF;
+}
+
+.job-card {
+  border: 2px solid var(--border-gray);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.tag .tag-gray{
+  background-color: black;
+  color: rgb(209, 41, 41);
+
+  
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.tag-orange {
+  background-color: var(--tag-orange-bg);
+  color: var(--tag-orange-text);
+  border: 1px solid var(--primary-orange);
+}
+
+.tag-gray {
+   background-color: var(--tag-gray-bg);
+   border: 1px solid gray;
+   border-radius: 50px;
+   padding: 0.25rem 0.75rem;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.job-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: justify;  
+  margin-bottom: 0.5rem;
+}
+
+.job-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-black);
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.job-description {
+  color: var(--text-gray);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.view-details-btn {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: var(--dark-blue);
+}
+
+/* Expanded Details */
+.job-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-gray);
+}
+
+.details-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+}
+
+.details-list li {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  align-items: flex-start;
+  font-size: 0.99rem;
+  font-weight: 500;
+  color: var(--text-black);
+}
+
+.check-icon {
+  color: #12B76A;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.check-icons {
+  color: #FF8A00;
+  flex-shrink: 0;
+  margin-top: 2px;
+  
+}
+
+.apply-now-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  text-align: left;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: fit-content;
+  background-color: #FF7A00;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.apply-now-btn:hover {
+  background-color: #e66d00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* CTA Section */
+.ctas {
+  background: linear-gradient(90deg, #0B1F3B, #1E55A1);
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ctas-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctas-title {
+  max-width: 900px;
+  font-size: 42px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.ctas-subtitle {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.ctas-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* important for mobile */
+}
+
+/* BUTTON BASE */
+.ctas-btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* PRIMARY BUTTON */
+.ctas-btn.primary {
+  background: #ff7a00;
+  color: #fff;
+  border: none;
+}
+
+.ctas-btn.primary:hover {
+  background: #e66d00;
+}
+
+/* SECONDARY BUTTON */
+.ctas-btn.secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #cbd5e1;
+}
+
+.ctas-btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* =====================
+   MOBILE RESPONSIVE
+   ===================== */
+@media (max-width: 768px) {
+
+  /* Hero Section */
+  .hero-section {
+    padding: 2rem 5% 3rem;
+  }
+
+  .sub-tag {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.3;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  /* Job Board */
+  .job-board {
+    padding: 1.5rem 5%;
+  }
+
+  .job-board-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Job Cards */
+  .job-card {
+    padding: 1.25rem;
+  }
+
+  .job-card-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .job-tags {
+    flex-wrap: wrap;
+  }
+
+  .job-title {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .job-description {
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .view-details-btn {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  /* Expanded Job Details */
+  .job-details-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .details-section h3 {
+    text-align: left;
+  }
+
+  .details-list li {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .check-icons-img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .apply-now-btn {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  /* CTA Section */
+  .ctas {
+    padding: 40px 5%;
+    margin-top: 20px;
+  }
+
+  .ctas-title {
+    font-size: 1.70rem;
+    line-height: 1.3;
+  }
+
+  .ctas-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .ctas-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ctas-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+}

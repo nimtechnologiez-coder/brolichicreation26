@@ -1,0 +1,144 @@
+.cs-services {
+  padding: 1px 5%;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.cs-tages {
+  display: block;
+  text-align: center;
+  color: #ff7a00;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cs-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.cs-subtitle {
+  max-width: 700px;
+  margin: 10px auto 40px;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cs-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.cs-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.cs-card:hover {
+  transform: translateY(-5px);
+}
+
+.cs-card-img {
+  position: relative;
+}
+
+.cs-card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cs-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #0f172a;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-icon img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.cs-card-content {
+  padding: 20px;
+}
+
+.cs-card-content h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #0f172a;
+}
+
+.cs-card-content p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+.cs-learn {
+  color: #ff7a00;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cs-view-more {
+  margin-top: 40px;
+}
+
+.cs-view-more-btn {
+  background: #0f172a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cs-view-more-btn:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1200px) {
+  .cs-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .cs-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cs-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-title {
+    font-size: 28px;
+  }
+}

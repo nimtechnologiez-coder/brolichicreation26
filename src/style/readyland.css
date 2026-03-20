@@ -1,0 +1,89 @@
+.cta {
+  background: linear-gradient(90deg, #0B1F3B, #1E55A1);
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  max-width: 900px;
+  font-size: 42px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.cta-subtitle {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* important for mobile */
+}
+
+/* BUTTON BASE */
+.cta-btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* PRIMARY BUTTON */
+.cta-btn.primary {
+  background: #ff7a00;
+  color: #fff;
+  border: none;
+}
+
+.cta-btn.primary:hover {
+  background: #e66d00;
+}
+
+/* SECONDARY BUTTON */
+.cta-btn.secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #cbd5e1;
+}
+
+.cta-btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 32px;
+  }
+
+  .cta-subtitle {
+    font-size: 16px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
