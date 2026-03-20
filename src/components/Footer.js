@@ -24,10 +24,10 @@ const Footer = () => {
               Quality building materials for homes, shops, and projects of all sizes. Reliable products. Steady supply. Support from start to finish.
             </p>
             <div className="social-links">
-              <a href="#" className="social-icon"><Instagram size={18} /></a>
-              <a href="#" className="social-icon"><Linkedin size={18} /></a>
-              <a href="#" className="social-icon"><Facebook size={18} /></a>
-              <a href="#" className="social-icon"><Twitter size={18} /></a>
+              <a href="/" className="social-icon"><Instagram size={18} /></a>
+              <a href="/" className="social-icon"><Linkedin size={18} /></a>
+              <a href="/" className="social-icon"><Facebook size={18} /></a>
+              <a href="/" className="social-icon"><Twitter size={18} /></a>
             </div>
           </div>
 
