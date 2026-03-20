@@ -10,7 +10,7 @@ import eye from "../images/eye.webp";
 import eyee from "../images/eyee.webp";
 import Footer from "../components/Footer";
 import customClearanceVideo from "../videos/custom-clearance.mp4";
-import constructionAdVideo from "../videos/construction-ad.mp4";
+import constructionAdVideo from "../videos/construction-ad.mp4"; 
 
 const AboutPage = () => {
   return (
