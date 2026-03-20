@@ -59,7 +59,7 @@ const Services = () => {
       {/* CARD 1 */}
       <div className="cardos card-1">
         <div className="cardos-img">
-          <img src={materials} alt="" />
+          <img src={materials} alt="materials" />
         </div>
  
         <div className="cardos-content">
@@ -95,7 +95,7 @@ const Services = () => {
       {/* CARD 2 */}
       <div className="cardos card-2 reverse">
         <div className="cardos-img">
-          <img src={transport} alt="" />
+          <img src={transport} alt="transport" />
         </div>
  
         <div className="cardos-content">

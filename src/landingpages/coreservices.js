@@ -30,7 +30,7 @@ const Coreservices = () => {
         {servicesData.map((item, index) => (
           <div className="cs-card" key={index}>
             <div className="cs-card-img">
-              <img src={item.img} alt="" />
+              <img src={item.img} alt="materials" />
               <div className="cs-icon">
                 <img src={iconImg} alt="icon" />
               </div>
