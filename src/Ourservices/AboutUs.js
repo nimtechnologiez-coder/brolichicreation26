@@ -2,17 +2,20 @@ import React from "react";
 import { FaLink, FaEnvelope } from "react-icons/fa";
 import "../Styleour/AboutUs.css";
 
-// Leadership Images
+
 import Alexander from "../images/Alexander.webp";
 import Sarah from "../images/Sarah.webp";
 import Marcus from "../images/Marcus.webp";
 import Team from "../images/Team.webp";
-import Footer from "../components/Footer";
+
 import journey from "../images/journey.webp";
 import eye from "../images/eye.webp";
 import eyee from "../images/eyee.webp";
-import customClearanceVideo from "../videos/Coustom Clearance & Transportation.mp4";
-import constructionAdVideo from "../videos/CONSTRUCTION AD.mp4";
+
+
+
+import customClearanceVideo from "../videos/custom-clearance.mp4";
+import constructionAdVideo from "../videos/construction-ad.mp4";
 
 const AboutPage = () => {
   return (
