@@ -15,12 +15,14 @@ import Footer from './components/Footer';
 import AboutUs from './Ourservices/AboutUs';
 import Services from './Ourservices/Services';
 import TestimonialsPage from './Ourservices/Testimonials';
+import PageLoader from './components/PageLoader';
 
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <PageLoader />
         <Navbar />
         
         <Routes>

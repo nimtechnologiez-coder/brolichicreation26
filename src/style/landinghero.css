@@ -19,6 +19,7 @@
 .hero-tag .dot {
   width: 10px;
   height: 10px;
+  margin-top: 8px;
   background-color: #ff7800;
   border-radius: 50%;
   box-shadow: 0 0 10px #ff7800;
