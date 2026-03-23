@@ -285,8 +285,8 @@ const AboutPage = () => {
             <div className="leader-img">
               <img src={Team} alt="Elena Vance" />
             </div>
-            <h3>Elena Vance</h3>
-            <p className="role">CHIEF STRATEGY OFFICER</p>
+            <h3>Brolichi Team</h3>
+            <p className="role">Leadership Team</p>
             <div className="leader-icons">
               <span className="icon-link" title="LinkedIn"><FaLink /></span>
               <span className="icon-mail" title="Email"><FaEnvelope /></span>
