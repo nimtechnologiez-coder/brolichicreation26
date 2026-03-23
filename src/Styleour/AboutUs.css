@@ -89,7 +89,7 @@
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
-  width: 50%;
+  width: 100%;
 }
 
 .about-divider {
@@ -556,6 +556,63 @@
   transform: translateY(-2px);
 }
 
+.values-section {
+  padding: 60px 20px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.values-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.values-subtitle {
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.values-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.value-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ea580c;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.value-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.value-card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
 /* ================= RESPONSIVE ================= */
 
 /* TABLET (<= 1024px) */
@@ -740,5 +797,18 @@
 
   .cta p {
     font-size: 16px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .values-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .values-container {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLink, FaEnvelope } from "react-icons/fa";
 import "../Styleour/AboutUs.css";
+
 import Alexander from "../images/alex.webp";
 import Sarah from "../images/philimon.webp";
 import Marcus from "../images/Marcus.webp";
@@ -8,9 +9,31 @@ import Team from "../images/Team.webp";
 import journey from "../images/journey.webp";
 import eye from "../images/eye.webp";
 import eyee from "../images/eyee.webp";
+
 import Footer from "../components/Footer";
+
 import customClearanceVideo from "../videos/custom-clearance.mp4";
 import constructionAdVideo from "../videos/construction-ad.mp4"; 
+
+// ✅ VALUES DATA (clean & scalable)
+const valuesData = [
+  {
+    title: "Integrity",
+    description: "Transparency and honesty in every transaction",
+  },
+  {
+    title: "Reliability",
+    description: "Timely and dependable services, every time",
+  },
+  {
+    title: "Customer Focus",
+    description: "Prioritising client needs and satisfaction",
+  },
+  {
+    title: "Innovation",
+    description: "Creative solutions that exceed expectations",
+  },
+];
 
 const AboutPage = () => {
   return (
@@ -20,7 +43,6 @@ const AboutPage = () => {
       <section className="about-section">
 
         <p className="about-tag">OUR STORY</p>
-
         <h1 className="about-title">About Us</h1>
 
         <p className="about-subtitle">
@@ -28,15 +50,11 @@ const AboutPage = () => {
           reliability, and care.
         </p>
 
-        {/* CARD */}
         <div className="about-card">
 
           {/* IMAGE */}
           <div className="about-card-image">
-            <img
-              src={journey}
-              alt="about"
-            />
+            <img src={journey} alt="about" />
           </div>
 
           {/* CONTENT */}
@@ -52,28 +70,33 @@ const AboutPage = () => {
             </h2>
 
             <p className="about-text">
-              Founded on the principles of integrity and forward-thinking, our journey began with a
-              small team of visionaries in 1995. What started as a niche consultancy has evolved into
-              a global powerhouse, defining industry standards and empowering businesses to
-              reach unprecedented heights.
+              Founded in 2022 in Solwezi, Zambia, Brolichi Creation Enterprise Limited was built on a simple but powerful belief — that every client deserves reliable, high-quality service delivered with integrity.
             </p>
 
             <p className="about-text">
-              We believe that true leadership is not just about staying ahead of the curve; it’s about
-              redefining it. Our commitment to excellence is reflected in every partnership we forge
-              and every challenge we overcome.
+              What started as a focused building materials supplier has grown into a multi-service enterprise spanning transport and logistics, motor vehicle importation, customs clearing and forwarding, and financial services — serving clients across Zambia from Solwezi, Kitwe, and Lusaka.
             </p>
 
             {/* STATS */}
             <div className="about-stats">
               <div>
-                <h3>10+</h3>
-                <p>Years Experience</p>
+                <h3>3+</h3>
+                <p>Years in business, growing strong since 2022</p>
               </div>
 
               <div className="about-divider">
-                <h3>450+</h3>
-                <p>Global Partners</p>
+                <h3>ZMW 7.8M+</h3>
+                <p>Delivered in government building material supplies</p>
+              </div>
+
+              <div className="about-divider">
+                <h3>3</h3>
+                <p>Strategic locations — Solwezi, Kitwe & Lusaka</p>
+              </div>
+
+              <div className="about-divider">
+                <h3>0</h3>
+                <p>Quality disputes across all previous supplies</p>
               </div>
             </div>
 
@@ -99,9 +122,7 @@ const AboutPage = () => {
             </div>
             <h2>Our Mission</h2>
             <p>
-              To provide premium corporate services that foster
-              growth and sustainable success for our global partners
-              through innovation and integrity.
+              To provide premium corporate services that foster growth and sustainable success for our global partners through innovation and integrity.
             </p>
           </div>
 
@@ -112,13 +133,32 @@ const AboutPage = () => {
             </div>
             <h2>Our Vision</h2>
             <p>
-              To be the world's most trusted partner in professional
-              excellence, setting the gold standard for corporate
-              integrity and strategic intelligence.
+              To be the world's most trusted partner in professional excellence, setting the gold standard for corporate integrity and strategic intelligence.
             </p>
           </div>
 
         </div>
+      </section>
+
+      {/* ================= VALUES ================= */}
+      <section className="values-section">
+
+        <h1 className="values-title">Our Core Values</h1>
+
+        <p className="values-subtitle">
+          The principles that guide everything we do.
+        </p>
+
+        <div className="values-container">
+          {valuesData.map((item, index) => (
+            <div className="value-card" key={index}>
+              <div className="dot"></div>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </div>
+
       </section>
 
       {/* ================= FOUNDATIONS ================= */}
@@ -185,10 +225,11 @@ const AboutPage = () => {
               <div className="timeline-item">
                 <div className="timeline-dot accent-dot"></div>
                 <div className="timeline-content">
-                  <h2 className="timeline-year text-accent">1995</h2>
-                  <h3 className="timeline-title">Genesis</h3>
+                  <h2 className="timeline-year text-accent">2022</h2>
+                  <h3 className="timeline-title">Founded Brolichi Creation Enterprise Limited established</h3>
                   <p className="timeline-desc">
-                    Founded in Zurich with a mission to revolutionize financial advisory.
+Founded and registered in Solwezi, Zambia, with a clear mission to deliver top-tier services across building supply, transport, and logistics sectors.
+
                   </p>
                 </div>
               </div>
@@ -197,11 +238,11 @@ const AboutPage = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h2 className="timeline-year">2008</h2>
-                  <h3 className="timeline-title">Global Expansion</h3>
+                  <h2 className="timeline-year">2023</h2>
+                  <h3 className="timeline-title">Growth
+Expanded operations across Zambia</h3>
                   <p className="timeline-desc">
-                    Established headquarters in London and Singapore, doubling our global reach.
-                  </p>
+Launched financial services as a mobile money distribution hub for local and international MNOs and fintech companies.                  </p>
                 </div>
               </div>
 
@@ -209,10 +250,12 @@ const AboutPage = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h2 className="timeline-year">2015</h2>
-                  <h3 className="timeline-title">Digital Transformation</h3>
+                  <h2 className="timeline-year">2024</h2>
+                  <h3 className="timeline-title">Government contracts
+Secured major government school supply</h3>
                   <p className="timeline-desc">
-                    Launched our proprietary AI-driven platform for strategic analysis.
+Partnered with ZEEL and ZEEP government projects to supply building materials to schools across Zambia, demonstrating our capacity for large-scale, quality-assured procurement.
+
                   </p>
                 </div>
               </div>
@@ -221,11 +264,11 @@ const AboutPage = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h2 className="timeline-year">2023</h2>
-                  <h3 className="timeline-title">Sustainability Pledge</h3>
+                  <h2 className="timeline-year">2025</h2>
+                  <h3 className="timeline-title">Milestone
+Over ZMW 7.8 million in government supplies delivered</h3>
                   <p className="timeline-desc">
-                    Achieved Carbon Neutral status across all global operations.
-                  </p>
+Reached a landmark figure in general supplies of building materials to government schools under ZEEL and ZEEP projects as of October 2025.                </p>
                 </div>
               </div>
             </div>

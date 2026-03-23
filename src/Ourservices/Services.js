@@ -87,7 +87,7 @@ const Services = () => {
           </div>
  
           <a href="/quotation" className="btnos-dark">
-            Request a Quotation &nbsp; →
+            Enquire Now &nbsp; →
           </a>
         </div>
       </div>
@@ -120,7 +120,7 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/bookings" className="btnos-dark">Book Transport &nbsp; →</a>
+          <a href="/bookings" className="btnos-dark">Enquire Now &nbsp; →</a>
         </div>
       </div>
  
@@ -154,7 +154,7 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/import-vehicle" className="btnos-dark">Start Vehicle Import &nbsp; →</a>
+          <a href="/import-vehicle" className="btnos-dark">Enquire Now &nbsp; →</a>
         </div>
       </div>
  
@@ -188,8 +188,8 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/clearing-assistance" className="btnos-dark">Get Clearing Assistance &nbsp; →</a>
-        </div>
+            <a href="/clearing-assistance" className="btnos-dark">Enquire Now &nbsp; →</a>
+          </div>
       </div>
  
       {/* CTA */}
