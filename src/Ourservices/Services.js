@@ -7,7 +7,7 @@ import bg3 from "../images/redmi.webp";
 import materials from "../images/material4.webp";
 import transport from "../images/materials1.webp";
 import vehicle from "../images/materials2.webp";
-import customs from "../images/materials3.webp";
+import customs from "../images/materials003.webp";
 import Footer from "../components/Footer";
 const Tick = ({ text }) => (
   <div className="tickos">

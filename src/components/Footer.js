@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../images/brolichilogo.webp';
+import logo from '../images/brolichilogox.png';
 import { 
   MapPin, 
   Phone, 
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Corporate Brand. All rights reserved. <a href="/privacy">Privacy Policy</a></p>
+          <p>Copyright © 2026 Brolichi Creation Enterprises limited. All rights reserved <a href="/privacy">Privacy Policy</a></p>
         </div>
       </div>
     </footer>

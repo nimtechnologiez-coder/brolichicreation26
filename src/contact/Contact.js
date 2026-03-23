@@ -33,7 +33,9 @@ const Contact = () => {
               <div className="contact-icon"><Package size={20} /></div>
               <div>
                 <h4>Physical Address</h4>
-                <p>123 Enterprise Avenue<br/>Harare, Zimbabwe.</p>
+                <p>Coppers Corner Building, Office No. 5,
+Ground Floor Independence Avenue, Solwezi,
+Northwest Province, Zambia</p>
               </div>
             </div>
 
@@ -41,7 +43,7 @@ const Contact = () => {
               <div className="contact-icon"><Package size={20} /></div>
               <div>
                 <h4>Phone Number</h4>
-                <p>+263 00 000 0000</p>
+                <p>+263 97 840 0116</p> 
               </div>
             </div>
 
@@ -49,7 +51,7 @@ const Contact = () => {
               <div className="contact-icon"><Package size={20} /></div>
               <div>
                 <h4>Email Address</h4>
-                <p>info@brolichi.com</p>
+                <p>sales@brolichi.com</p>
               </div>
             </div>
 

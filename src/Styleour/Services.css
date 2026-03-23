@@ -355,6 +355,8 @@
  
   .cardos-img {
     height: 200px;
+    transform: scale(1.0); /* zooms 30% */
+  transform-origin: center;
   }
  
   .cardos-content {
