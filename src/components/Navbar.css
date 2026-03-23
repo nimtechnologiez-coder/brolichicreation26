@@ -64,6 +64,12 @@
   text-align: center;
 }
 
+.contact-btn.active {
+  background-color: #FF8A00;
+  color: white;
+  border-color: #FF8A00;
+}
+
 @media (max-width: 991px) {
   .desktop-only {
     display: none !important;

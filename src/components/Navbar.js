@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavLink, Link, } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 import logo from '../images/brolichilogo.webp';
@@ -14,23 +13,25 @@ const Navbar = () => {
   // const activePage = location.pathname === '/' ? 'home' : 
   //                    location.pathname === '/careers' ? 'careers' : '';
 
-  return (
+    const currentPath = window.location.pathname;
+
+    return (
     <nav className="main-nav">
       <div className="nav-logo">
-        <Link to="/" onClick={() => setIsMenuOpen(false)}>
+        <a href="/" onClick={() => setIsMenuOpen(false)}>
           <img src={logo} alt="Brolichi Logo" />
-        </Link>
+        </a>
       </div>
 
       {/* Desktop Links */}
       <div className="nav-links desktop-only">
-        <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
-        <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
-        <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About Us</NavLink>
-        <NavLink to="/testimonials" className={({ isActive }) => isActive ? 'active' : ''}>Testimonials</NavLink>
-        <NavLink to="/careers" className={({ isActive }) => isActive ? 'active-btn' : 'nav-btn'}>Careers</NavLink>
+        <a href="/" className={currentPath === '/' ? 'active' : ''}>Home</a>
+        <a href="/services" className={currentPath === '/services' ? 'active' : ''}>Services</a>
+        <a href="/about" className={currentPath === '/about' ? 'active' : ''}>About Us</a>
+        <a href="/testimonials" className={currentPath === '/testimonials' ? 'active' : ''}>Testimonials</a>
+        <a href="/careers" className={currentPath === '/careers' ? 'active-btn' : 'nav-btn'}>Careers</a>
       </div>
-      <Link to="/contact" className="contact-btn desktop-only">Contact us</Link>
+      <a href="/contact" className={`contact-btn desktop-only ${currentPath === '/contact' ? 'active' : ''}`}>Contact us</a>
 
       {/* Mobile Toggle */}
       <button className="mobile-menu-toggle" onClick={toggleMenu}>
@@ -40,12 +41,12 @@ const Navbar = () => {
       {/* Mobile Overlay */}
       <div className={`mobile-overlay ${isMenuOpen ? 'open' : ''}`}>
         <div className="mobile-nav-links">
-          <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Home</NavLink>
-          <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Services</NavLink>
-          <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>About Us</NavLink>
-          <NavLink to="/testimonials" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Testimonials</NavLink>
-          <NavLink to="/careers" className={({ isActive }) => isActive ? 'active-btn' : 'nav-btn'} onClick={() => setIsMenuOpen(false)}>Careers</NavLink>
-          <Link to="/contact" className="contact-btn mobile-contact-btn" onClick={() => setIsMenuOpen(false)}>Contact us</Link>
+          <a href="/" className={currentPath === '/' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Home</a>
+          <a href="/services" className={currentPath === '/services' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Services</a>
+          <a href="/about" className={currentPath === '/about' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>About Us</a>
+          <a href="/testimonials" className={currentPath === '/testimonials' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Testimonials</a>
+          <a href="/careers" className={currentPath === '/careers' ? 'active-btn' : 'nav-btn'} onClick={() => setIsMenuOpen(false)}>Careers</a>
+          <a href="/contact" className={`contact-btn mobile-contact-btn ${currentPath === '/contact' ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}>Contact us</a>
         </div>
       </div>
     </nav>
