@@ -56,9 +56,11 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Contact Us</h4>
             <ul className="footer-contact-links">
-              <li><MapPin size={16} color="#FF7A00" /> 123 Enterprise Avenue, Harare, Zimbabwe</li>
-              <li><Phone size={16} color="#FF7A00" /> +263 00 000 0000</li>
-              <li><Mail size={16} color="#FF7A00" /> info@brolichi.com</li>
+              <li><MapPin size={46} color="#FF7A00" /> Coppers Corner Building, Office No. 5,
+Ground Floor Independence Avenue, Solwezi,
+Northwest Province, Zambia</li>
+              <li><Phone size={16} color="#FF7A00" /> +263 97 840 0116</li>
+              <li><Mail size={16} color="#FF7A00" /> sales@brolichi.com</li>
             </ul>
           </div>
         </div>
