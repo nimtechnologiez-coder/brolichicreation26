@@ -2,7 +2,7 @@ import React from "react";
 import { FaLink, FaEnvelope } from "react-icons/fa";
 import "../Styleour/AboutUs.css";
 import Alexander from "../images/alex.webp";
-import Sarah from "../images/Sarah.webp";
+import Sarah from "../images/philimon.webp";
 import Marcus from "../images/Marcus.webp";
 import Team from "../images/Team.webp";
 import journey from "../images/journey.webp";
@@ -261,7 +261,7 @@ const AboutPage = () => {
             <div className="leader-img">
               <img src={Marcus} alt="Sarah Jenkins" />
             </div>
-            <h3>Sarah Jenkins</h3>
+            <h3>Francine</h3>
             <p className="role">CHIEF OPERATIONS OFFICER</p>
             <div className="leader-icons">
               <span className="icon-link" title="LinkedIn"><FaLink /></span>
@@ -273,7 +273,7 @@ const AboutPage = () => {
             <div className="leader-img">
               <img src={Sarah} alt="Marcus Thorne" />
             </div>
-            <h3>Marcus Thorne</h3>
+            <h3>Philimon</h3>
             <p className="role">HEAD OF INNOVATION</p>
             <div className="leader-icons">
               <span className="icon-link" title="LinkedIn"><FaLink /></span>
