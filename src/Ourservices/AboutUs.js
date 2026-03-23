@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLink, FaEnvelope } from "react-icons/fa";
 import "../Styleour/AboutUs.css";
-import Alexander from "../images/Alexander.webp";
+import Alexander from "../images/alex.webp";
 import Sarah from "../images/Sarah.webp";
 import Marcus from "../images/Marcus.webp";
 import Team from "../images/Team.webp";
@@ -249,8 +249,8 @@ const AboutPage = () => {
             <div className="leader-img">
               <img src={Alexander} alt="Alexander Sterling" />
             </div>
-            <h3>Alexander Sterling</h3>
-            <p className="role">CHIEF EXECUTIVE OFFICER</p>
+            <h3>Jackson</h3>
+            <p className="role">Founder</p>
             <div className="leader-icons">
               <span className="icon-link" title="LinkedIn"><FaLink /></span>
               <span className="icon-mail" title="Email"><FaEnvelope /></span>
@@ -259,7 +259,7 @@ const AboutPage = () => {
 
           <div className="leader-card">
             <div className="leader-img">
-              <img src={Sarah} alt="Sarah Jenkins" />
+              <img src={Marcus} alt="Sarah Jenkins" />
             </div>
             <h3>Sarah Jenkins</h3>
             <p className="role">CHIEF OPERATIONS OFFICER</p>
@@ -271,7 +271,7 @@ const AboutPage = () => {
 
           <div className="leader-card">
             <div className="leader-img">
-              <img src={Marcus} alt="Marcus Thorne" />
+              <img src={Sarah} alt="Marcus Thorne" />
             </div>
             <h3>Marcus Thorne</h3>
             <p className="role">HEAD OF INNOVATION</p>

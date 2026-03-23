@@ -14,8 +14,9 @@
 
 .nav-logo img {
   height: 50px;
+  transform: scale(2.3); /* zooms 30% */
+  transform-origin: center;
 }
-
 .nav-links {
   display: flex;
   gap: 2rem;

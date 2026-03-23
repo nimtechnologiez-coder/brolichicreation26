@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import './Navbar.css';
-import logo from '../images/brolichilogo.webp';
+import logo from '../images/brolichilogox.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
