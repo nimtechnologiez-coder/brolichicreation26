@@ -89,15 +89,7 @@ const AboutPage = () => {
                 <p>Delivered in government building material supplies</p>
               </div>
 
-              <div className="about-divider">
-                <h3>3</h3>
-                <p>Strategic locations — Solwezi, Kitwe & Lusaka</p>
-              </div>
-
-              <div className="about-divider">
-                <h3>0</h3>
-                <p>Quality disputes across all previous supplies</p>
-              </div>
+             
             </div>
 
           </div>
@@ -122,7 +114,8 @@ const AboutPage = () => {
             </div>
             <h2>Our Mission</h2>
             <p>
-              To provide premium corporate services that foster growth and sustainable success for our global partners through innovation and integrity.
+To deliver high-quality services that enhance our clients' operations while fostering growth and development in the communities we serve.
+
             </p>
           </div>
 
@@ -133,8 +126,7 @@ const AboutPage = () => {
             </div>
             <h2>Our Vision</h2>
             <p>
-              To be the world's most trusted partner in professional excellence, setting the gold standard for corporate integrity and strategic intelligence.
-            </p>
+To be a trusted partner in building and logistics solutions by consistently providing reliable and efficient services tailored to meet the unique needs of our clients.            </p>
           </div>
 
         </div>
@@ -152,7 +144,6 @@ const AboutPage = () => {
         <div className="values-container">
           {valuesData.map((item, index) => (
             <div className="value-card" key={index}>
-              <div className="dot"></div>
               <h3>{item.title}</h3>
               <p>{item.description}</p>
             </div>
@@ -223,16 +214,17 @@ const AboutPage = () => {
             <div className="timeline-grid">
               {/* ITEM 1 */}
               <div className="timeline-item">
-                <div className="timeline-dot accent-dot"></div>
-                <div className="timeline-content">
-                  <h2 className="timeline-year text-accent">2022</h2>
-                  <h3 className="timeline-title">Founded Brolichi Creation Enterprise Limited established</h3>
-                  <p className="timeline-desc">
-Founded and registered in Solwezi, Zambia, with a clear mission to deliver top-tier services across building supply, transport, and logistics sectors.
-
-                  </p>
-                </div>
-              </div>
+  <div className="timeline-dot"></div>
+  <div className="timeline-content">
+    <h2 className="timeline-year">2022</h2>
+    <h3 className="timeline-title">
+      Founded Brolichi Creation Enterprise Limited established
+    </h3>
+    <p className="timeline-desc">
+      Founded and registered in Solwezi, Zambia, with a clear mission...
+    </p>
+  </div>
+</div>
 
               {/* ITEM 2 */}
               <div className="timeline-item">

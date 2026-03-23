@@ -89,7 +89,7 @@
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
-  width: 100%;
+  width: 70%;
 }
 
 .about-divider {
@@ -351,6 +351,34 @@
   margin: 0;
 }
 
+/* 🔥 Hover effect for ALL items */
+.timeline-item:hover .timeline-dot::after {
+  background: #ff8c00;
+}
+
+.timeline-item:hover .timeline-dot {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 1px #ff8c00, 0 0 0 10px rgba(255, 140, 0, 0.2);
+}
+
+.timeline-item:hover .timeline-year {
+  color: #ff8c00;
+}
+
+.timeline-item:hover .timeline-title {
+  color: #ff8c00;
+}
+
+.timeline-dot,
+.timeline-dot::after,
+.timeline-year,
+.timeline-title {
+  transition: all 0.3s ease;
+}
+.timeline-item:hover {
+  transform: translateY(-5px);
+}
+
 /* ================= LEADERSHIP ================= */
 .leadership-section {
   padding: 80px 10%;
@@ -594,13 +622,13 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
 
-.dot {
+/* .dot {
   width: 10px;
   height: 10px;
   background-color: #ea580c;
   border-radius: 50%;
   margin-bottom: 10px;
-}
+} */
 
 .value-card h3 {
   font-size: 18px;

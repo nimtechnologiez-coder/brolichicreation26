@@ -247,9 +247,16 @@
   }
 
   .stats {
-    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
+    text-align: center; /* 🔥 centers text */
+    justify-items: center; /* 🔥 centers each block */
   }
+
+  
+  
 }
 
 .stats::-webkit-scrollbar {
