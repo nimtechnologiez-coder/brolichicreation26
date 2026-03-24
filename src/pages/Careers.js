@@ -10,13 +10,28 @@ import {
 
 } from 'lucide-react';
 import Footer from '../components/Footer';
+import JobModal from '../components/JobModal';
+
 
 const Careers = () => {
   const [expandedJobId, setExpandedJobId] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedJob, setSelectedJob] = useState(null);
 
   const toggleJob = (id) => {
     setExpandedJobId(expandedJobId === id ? null : id);
   };
+
+  const openModal = (job) => {
+    setSelectedJob(job);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedJob(null);
+  };
+
 
   const jobs = [
     {
@@ -156,7 +171,13 @@ const Careers = () => {
                       </ul>
                     </div>
                   </div>
-                  <a href="/apply" className="careers-btn apply-now-btn">Apply Now for this Role</a>
+                  <button 
+                    className="careers-btn apply-now-btn"
+                    onClick={() => openModal(job)}
+                  >
+                    Apply Now for this Role
+                  </button>
+
                 </div>
               )}
             </div>
@@ -187,7 +208,16 @@ const Careers = () => {
     </section>
 
       <Footer/>
+      
+      {selectedJob && (
+        <JobModal 
+          isOpen={isModalOpen} 
+          onClose={closeModal} 
+          jobTitle={selectedJob.title} 
+        />
+      )}
     </div>
+
   );
 };
 
