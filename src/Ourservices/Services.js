@@ -224,7 +224,14 @@ const Services = () => {
         <p>Contact us today and get a personalised quote.</p>
  
         <div className="ctaos-buttons">
-          <a href="/quotation" className="btnos-orange">Request a Quotation &nbsp; →</a>
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn primary"
+          >
+          Request a Quotation →
+          </a>
           <a href="/contact" className="btnos-outline">Contact Us</a>
         </div>
       </div>

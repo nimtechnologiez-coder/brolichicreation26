@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, ArrowRight } from "lucide-react";
+import { Star } from "lucide-react";
 import '../Styleour/Testimonials.css';
 import Footer from '../components/Footer';
  
@@ -128,9 +128,14 @@ function Testimonials() {
                         <h1>Ready to Start Your Project ?</h1>
                         <p>Contact Brolichi Creation Enterprises today. Get a personalised<br />quote for your build.</p>
                         <div className="cta-buttons">
-                            <a href="/quotation" className="btn-orange">
-                                Request a Quotation &nbsp; <ArrowRight size={18} />
-                            </a>
+                         <a 
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn primary"
+                         >
+                          Request a Quotation →
+                          </a>
                             <a href="/contact" className="btn-outline">Contact Us</a>
                         </div>
                     </div>

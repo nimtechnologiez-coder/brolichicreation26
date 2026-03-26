@@ -460,7 +460,14 @@ Reached a landmark figure in general supplies of building materials to governmen
         <p>Contact us today and get a personalised quote.</p>
 
         <div className="cta-buttons">
-          <a href="/quotation" className="btn-orange">Request a Quotation &nbsp; →</a>
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn primary"
+          >
+          Request a Quotation →
+          </a>
           <a href="/contact" className="btn-outline">Contact Us</a>
         </div>
       </div>

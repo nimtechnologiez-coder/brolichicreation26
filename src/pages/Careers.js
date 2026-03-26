@@ -196,8 +196,13 @@ const Careers = () => {
         </p>
 
         <div className="ctas-buttons">
-         <a href="/quotation" className="ctas-btn primary">
-            Request a Quotation →
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn primary"
+          >
+          Request a Quotation →
           </a>
 
           <a href="/contact" className="ctas-btn secondary">
