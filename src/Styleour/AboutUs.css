@@ -14,6 +14,22 @@
   letter-spacing: 1px;
 }
 
+.icon-link,
+.icon-mail {
+  color: inherit;        /* takes parent color */
+  text-decoration: none; /* removes underline */
+}
+
+.icon-link:visited,
+.icon-mail:visited {
+  color: inherit;        /* prevents purple after click */
+}
+
+.icon-link:hover,
+.icon-mail:hover {
+  color: #0a66c2; /* optional: LinkedIn color on hover */
+}
+
 .about-title {
   font-size: 48px;
   color: #0f172a;

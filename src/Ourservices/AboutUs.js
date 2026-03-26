@@ -287,8 +287,22 @@ Reached a landmark figure in general supplies of building materials to governmen
             <h3>Jackson</h3>
             <p className="role">Founder</p>
             <div className="leader-icons">
-              <span className="icon-link" title="LinkedIn"><FaLink /></span>
-              <span className="icon-mail" title="Email"><FaEnvelope /></span>
+             <a 
+  href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="icon-link" 
+  title="LinkedIn"
+>
+  <FaLink />
+</a>
+              <a 
+  href="mailto:admin@brolichi.com" 
+  className="icon-mail" 
+  title="Email"
+>
+  <FaEnvelope />
+</a>
             </div>
           </div>
 
@@ -299,8 +313,22 @@ Reached a landmark figure in general supplies of building materials to governmen
             <h3>Francine</h3>
             <p className="role">CHIEF OPERATIONS OFFICER</p>
             <div className="leader-icons">
-              <span className="icon-link" title="LinkedIn"><FaLink /></span>
-              <span className="icon-mail" title="Email"><FaEnvelope /></span>
+             <a 
+  href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="icon-link" 
+  title="LinkedIn"
+>
+  <FaLink />
+</a>
+              <a 
+  href="mailto:administrativesupport@brolichi.com" 
+  className="icon-mail" 
+  title="Email"
+>
+  <FaEnvelope />
+</a>
             </div>
           </div>
 
@@ -311,8 +339,22 @@ Reached a landmark figure in general supplies of building materials to governmen
             <h3>Philimon</h3>
             <p className="role">HEAD OF INNOVATION</p>
             <div className="leader-icons">
-              <span className="icon-link" title="LinkedIn"><FaLink /></span>
-              <span className="icon-mail" title="Email"><FaEnvelope /></span>
+             <a 
+  href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="icon-link" 
+  title="LinkedIn"
+>
+  <FaLink />
+</a>
+              <a 
+  href="mailto:philimonp@brolichi.com" 
+  className="icon-mail" 
+  title="Email"
+>
+  <FaEnvelope />
+</a>
             </div>
           </div>
 
@@ -323,8 +365,22 @@ Reached a landmark figure in general supplies of building materials to governmen
             <h3>Brolichi Team</h3>
             <p className="role">Leadership Team</p>
             <div className="leader-icons">
-              <span className="icon-link" title="LinkedIn"><FaLink /></span>
-              <span className="icon-mail" title="Email"><FaEnvelope /></span>
+             <a 
+  href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="icon-link" 
+  title="LinkedIn"
+>
+  <FaLink />
+</a>
+              <a 
+  href="mailto:sales@brolichi.com?subject=Enquiry&body=Hello%20Brolichi%20Team," 
+  className="icon-mail" 
+  title="Email"
+>
+  <FaEnvelope />
+</a>
             </div>
           </div>
 
