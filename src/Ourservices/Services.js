@@ -86,9 +86,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/quotation" className="btnos-dark">
-            Enquire Now &nbsp; →
-          </a>
+          <a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform?usp=header"
+  className="btnos-dark"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Enquire Now &nbsp; →
+</a>
         </div>
       </div>
  
@@ -120,7 +125,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/bookings" className="btnos-dark">Enquire Now &nbsp; →</a>
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfzLirNhfoYW5U_zZxlE59sEQuo6lVpoegM6s-r5uUQIJc-PQ/viewform?usp=publish-editor"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          Enquire Now &nbsp; →
+          </a>
         </div>
       </div>
  
@@ -154,7 +166,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/import-vehicle" className="btnos-dark">Enquire Now &nbsp; →</a>
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeXMMFoiyogLsik8kkFIQKyR82kowY5xQid-BiRjVLMUXNcOA/viewform?usp=publish-editor"
+          className="btnos-dark"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Enquire Now &nbsp; →
+          </a>
         </div>
       </div>
  
@@ -188,7 +207,14 @@ const Services = () => {
             </div>
           </div>
  
-            <a href="/clearing-assistance" className="btnos-dark">Enquire Now &nbsp; →</a>
+            <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLScIxw9prYEooHJq2TcUe92FkWxiygT_pbdOBUDYqs6XyoTSyw/viewform?usp=publish-editor"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Enquire Now &nbsp; →
+            </a>
           </div>
       </div>
  

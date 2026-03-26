@@ -20,60 +20,60 @@ const testimonialsData = [
         id: 2,
         category: "Building Materials Supply",
         rating: 5,
-        text: "Brolichi delivered our full building materials order on time. Exceptional quality and service! Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+        text: "Brolichi made our procurement process smooth and hassle-free. The materials arrived exactly as promised, and the quality exceeded expectations and quality service.",
         author: {
-            name: "Tendai Moyo",
+            name: "Arjun Patel",
             role: "CEO",
-            company: "Moyo Construction Ltd",
-            initial: "T"
+            company: "Patel Infra Solutions",
+            initial: "A"
         }
     },
     {
         id: 3,
-        category: "Building Materials Supply",
+        category: "Import & Export Services",
         rating: 5,
-        text: "Brolichi delivered our full building materials order on time. Exceptional quality and service! Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+        text: "We were impressed with their timely delivery and professional communication. Brolichi handled everything efficiently from start to finish delivered without delays of the service.",
         author: {
-            name: "Tendai Moyo",
-            role: "CEO",
-            company: "Moyo Construction Ltd",
-            initial: "T"
+            name: "Sarah Johnson",
+            role: "Project Manager",
+            company: "UrbanBuild Ltd",
+            initial: "S"
         }
     },
     {
         id: 4,
-        category: "Building Materials Supply",
+        category: "Customs Clearing Assistance",
         rating: 5,
-        text: "Brolichi delivered our full building materials order on time. Exceptional quality and service! Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+        text: "Reliable service and consistent quality — that's what we experienced with Brolichi. They’ve become our go-to supplier for building materials We received our materials on time without any issues",
         author: {
-            name: "Tendai Moyo",
-            role: "CEO",
-            company: "Moyo Construction Ltd",
-            initial: "T"
+            name: "Mohammed Khan",
+            role: "Director",
+            company: "Khan Constructions",
+            initial: "M"
         }
     },
     {
         id: 5,
-        category: "Building Materials Supply",
+        category: "Logistics & Transportation",
         rating: 5,
-        text: "Brolichi delivered our full building materials order on time. Exceptional quality and service! Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+        text: "Their team understood our requirements clearly and delivered without delays. It’s rare to find this level of commitment in the industry.",
         author: {
-            name: "Tendai Moyo",
-            role: "CEO",
+            name: "Priya Nair",
+            role: "Operations Head",
             company: "Moyo Construction Ltd",
-            initial: "T"
+            initial: "P"
         }
     },
     {
         id: 6,
-        category: "Building Materials Supply",
+        category: "Project Procurement Solutions",
         rating: 5,
-        text: "Brolichi delivered our full building materials order on time. Exceptional quality and service! Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+        text: "From pricing to delivery, everything was transparent and well-managed. Brolichi stands out for their professionalism and reliability.",
         author: {
-            name: "Tendai Moyo",
+            name: "Daniel Smith",
             role: "CEO",
-            company: "Moyo Construction Ltd",
-            initial: "T"
+            company: "Smith BuildWorks",
+            initial: "D"
         }
     }
 ];
