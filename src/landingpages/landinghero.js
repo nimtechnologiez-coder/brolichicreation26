@@ -76,8 +76,13 @@ const LandingHero = () => {
         </p>
 
         <div className="buttons">
-          <a href="/quotation" className="primary">
-            Request a Quotation →
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="primary"
+          >
+          Request a Quotation →
           </a>
 
           <a href="/services" className="secondary">

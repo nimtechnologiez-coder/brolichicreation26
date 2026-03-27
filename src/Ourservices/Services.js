@@ -86,9 +86,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/quotation" className="btnos-dark">
-            Enquire Now &nbsp; →
-          </a>
+          <a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform?usp=header"
+  className="btnos-dark"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Enquire Now &nbsp; →
+</a>
         </div>
       </div>
  
@@ -120,7 +125,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/bookings" className="btnos-dark">Enquire Now &nbsp; →</a>
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfzLirNhfoYW5U_zZxlE59sEQuo6lVpoegM6s-r5uUQIJc-PQ/viewform?usp=publish-editor"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          Enquire Now &nbsp; →
+          </a>
         </div>
       </div>
  
@@ -154,7 +166,14 @@ const Services = () => {
             </div>
           </div>
  
-          <a href="/import-vehicle" className="btnos-dark">Enquire Now &nbsp; →</a>
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeXMMFoiyogLsik8kkFIQKyR82kowY5xQid-BiRjVLMUXNcOA/viewform?usp=publish-editor"
+          className="btnos-dark"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Enquire Now &nbsp; →
+          </a>
         </div>
       </div>
  
@@ -188,7 +207,14 @@ const Services = () => {
             </div>
           </div>
  
-            <a href="/clearing-assistance" className="btnos-dark">Enquire Now &nbsp; →</a>
+            <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLScIxw9prYEooHJq2TcUe92FkWxiygT_pbdOBUDYqs6XyoTSyw/viewform?usp=publish-editor"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Enquire Now &nbsp; →
+            </a>
           </div>
       </div>
  
@@ -198,7 +224,14 @@ const Services = () => {
         <p>Contact us today and get a personalised quote.</p>
  
         <div className="ctaos-buttons">
-          <a href="/quotation" className="btnos-orange">Request a Quotation &nbsp; →</a>
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn primary"
+          >
+          Request a Quotation →
+          </a>
           <a href="/contact" className="btnos-outline">Contact Us</a>
         </div>
       </div>

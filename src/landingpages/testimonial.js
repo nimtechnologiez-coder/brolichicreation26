@@ -11,11 +11,11 @@ const data = [
     text: "Brolichi delivered our full building materials order on time. Exceptional quality and service!",
   },
   {
-    name: "Tendai Moyo",
-    company: "Moyo Construction Ltd",
-    text: "Brolichi delivered our full building materials order on time. Exceptional quality and service!",
+    name: "Tarah Johnson",
+    company: "UrbanBuild Ltd",
+    text: "We were impressed with their timely delivery and professional communication. Brolichi efficiently from start to finish delivered.",
   },
-];
+];      
 
 const Testimonial = () => {
   return (

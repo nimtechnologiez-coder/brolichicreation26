@@ -13,8 +13,14 @@ const CTASection = () => {
         </p>
 
         <div className="cta-buttons">
-          <a href="/quotation" className="cta-btn primary">
-            Request a Quotation →
+
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn primary"
+          >
+          Request a Quotation →
           </a>
 
           <a href="/contact" className="cta-btn secondary">
