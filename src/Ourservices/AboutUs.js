@@ -311,7 +311,7 @@ Reached a landmark figure in general supplies of building materials to governmen
               <img src={Marcus} alt="Sarah Jenkins" />
             </div>
             <h3>Francine</h3>
-            <p className="role">CHIEF OPERATIONS OFFICER</p>
+            <p className="role">Administrative Officer</p>
             <div className="leader-icons">
              <a 
   href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
@@ -337,7 +337,7 @@ Reached a landmark figure in general supplies of building materials to governmen
               <img src={Sarah} alt="Marcus Thorne" />
             </div>
             <h3>Philimon</h3>
-            <p className="role">HEAD OF INNOVATION</p>
+            <p className="role">Senior Accountant</p>
             <div className="leader-icons">
              <a 
   href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" 
