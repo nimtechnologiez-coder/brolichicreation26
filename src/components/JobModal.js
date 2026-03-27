@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { X, Upload, Send } from 'lucide-react';
 import './JobModal.css';
 
-const JobModal = ({ isOpen, onClose, jobTitle }) => {
+const JobModal = ({ isOpen, onClose, jobTitle, jobId }) => {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -26,13 +26,35 @@ const JobModal = ({ isOpen, onClose, jobTitle }) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate API call
-    setTimeout(() => {
-      console.log('Form Data Submitted:', formData);
-      alert(`Application for ${formData.role} sent successfully!`);
+    const data = new FormData();
+    data.append('job_id', jobId);
+    data.append('name', formData.fullName);
+    data.append('email', formData.email);
+    data.append('cover_letter', formData.coverLetter);
+    if (formData.resume) {
+      data.append('resume', formData.resume);
+    }
+
+    fetch('https://brolichicreationbackend26.onrender.com/api/apply/', {
+      method: 'POST',
+      body: data,
+    })
+    .then(res => res.json())
+    .then(result => {
+      if (result.status === 'success') {
+        alert(result.message);
+        setIsSubmitting(false);
+        onClose();
+      } else {
+        alert('Error: ' + result.message);
+        setIsSubmitting(false);
+      }
+    })
+    .catch(err => {
+      console.error('Submission error:', err);
+      alert('An error occurred. Please try again.');
       setIsSubmitting(false);
-      onClose();
-    }, 1500);
+    });
   };
 
   if (!isOpen) return null;
