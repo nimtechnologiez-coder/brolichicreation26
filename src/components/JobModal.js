@@ -35,9 +35,7 @@ const JobModal = ({ isOpen, onClose, jobTitle, jobId }) => {
       data.append('resume', formData.resume);
     }
 
-    const API = process.env.REACT_APP_API_URL;
-
-fetch(`${API}/api/apply/`, {
+    fetch('https://admin.brolichi.com/api/apply/', {
       method: 'POST',
       body: data,
     })
