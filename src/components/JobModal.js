@@ -35,7 +35,9 @@ const JobModal = ({ isOpen, onClose, jobTitle, jobId }) => {
       data.append('resume', formData.resume);
     }
 
-    fetch('https://brolichicreationbackend26.onrender.com/api/apply/', {
+    const API = process.env.REACT_APP_API_URL;
+
+fetch(`${API}/api/apply/`, {
       method: 'POST',
       body: data,
     })

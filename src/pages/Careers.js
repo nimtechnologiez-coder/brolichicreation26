@@ -21,7 +21,9 @@ const Careers = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://brolichicreationbackend26.onrender.com/api/jobs/')
+    const API = process.env.REACT_APP_API_URL;
+
+fetch(`${API}/api/jobs/`)
       .then(res => res.json())
       .then(data => {
         setJobs(data);
