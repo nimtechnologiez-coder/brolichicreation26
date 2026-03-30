@@ -113,6 +113,36 @@
   line-height: 1.5;
 }
 
+.contact-emails-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.email-entry {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.email-entry a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff7a00;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.email-entry a:hover {
+  text-decoration: underline;
+}
+
+.email-entry span {
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
 /* RIGHT COL - FORM */
 .contact-form-col {
   flex: 1;
@@ -207,6 +237,163 @@
 }
 
 
+
+/* ROUTES SECTION */
+.contact-routes {
+  padding: 40px 5% 60px 5%;
+  background: #ffffff;
+}
+
+.routes-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.routes-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 10px 0;
+}
+
+.routes-header p {
+  font-size: 18px;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.routes-header .contact-subtag {
+  text-align: center;
+}
+
+.routes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.route-card {
+  /* background: #f8fafc; */
+  border-radius: 8px;
+  padding: 30px;
+  margin-left: 60px;
+  /* border: 1px solid #e2e8f0; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.route-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  border-color: #cbd5e1;
+}
+
+.route-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.route-list {
+  list-style: none;
+  
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.route-list li {
+  font-size: 16px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* .route-list li::before {
+  content: '•';
+  color: #ff7a00;
+  font-size: 20px;
+  margin-right: 10px;
+  line-height: 1;
+} */
+
+/* BRANCHES SECTION */
+.contact-branches {
+  padding: 0 5% 60px 5%;
+  background: #ffffff;
+}
+
+.branches-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.branches-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 10px 0;
+}
+
+.branches-header .contact-subtag {
+  text-align: center;
+}
+
+.branches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.branch-card {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.branch-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+  border-color: #cbd5e1;
+}
+
+.branch-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ff7a00;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.branch-info p {
+  font-size: 15px;
+  color: #475569;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.branch-info strong {
+  color: #1e293b;
+  font-weight: 600;
+}
 
 /* MAP SECTION */
 .contact-map {

@@ -70,7 +70,7 @@ const AboutPage = () => {
             </h2>
 
             <p className="about-text">
-              Founded in 2022 in Solwezi, Zambia, Brolichi Creation Enterprise Limited was built on a simple but powerful belief — that every client deserves reliable, high-quality service delivered with integrity.
+              Founded in 2022 in Solwezi, Zambia, Brolichi Enterprise Limited was built on a simple but powerful belief — that every client deserves reliable, high-quality service delivered with integrity.
             </p>
 
             <p className="about-text">
@@ -218,7 +218,7 @@ To be a trusted partner in building and logistics solutions by consistently prov
   <div className="timeline-content">
     <h2 className="timeline-year">2022</h2>
     <h3 className="timeline-title">
-      Founded Brolichi Creation Enterprise Limited established
+      Founded Brolichi Enterprise Limited established
     </h3>
     <p className="timeline-desc">
       Founded and registered in Solwezi, Zambia, with a clear mission...

@@ -156,7 +156,7 @@ const Careers = () => {
         <h2 className="ctas-title">Ready to Start Your Project ?</h2>
 
         <p className="ctas-subtitle">
-          Contact Brolichi Creation Enterprises today. Get a personalised<br></br>
+          Contact Brolichi Enterprises today. Get a personalised<br></br>
           quote for your build.
         </p>
 

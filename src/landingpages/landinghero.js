@@ -108,7 +108,7 @@ const LandingHero = () => {
 
           <div>
             <h2>
-              <CountUp end={100} startAnimation={startAnimation} />+
+              <CountUp end={5000} startAnimation={startAnimation} />+
             </h2>
             <p>Products Available</p>
           </div>

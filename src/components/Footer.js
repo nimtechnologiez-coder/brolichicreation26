@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="social-links">
               <a href="/" className="social-icon"><Instagram size={18} /></a>
               <a href="/" className="social-icon"><Linkedin size={18} /></a>
-              <a href="/" className="social-icon"><Facebook size={18} /></a>
+              <a href="https://www.facebook.com/share/18JSDUwV4M/" className="social-icon"  target="_blank"  rel="noopener noreferrer" > <Facebook size={18} /> </a>
               <a href="/" className="social-icon"><Twitter size={18} /></a>
             </div>
           </div>
