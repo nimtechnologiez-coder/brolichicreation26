@@ -37,7 +37,7 @@ const WhyChoose = () => {
 
         <div className="right">
           <p>
-            Here is why contractors and builders choose Brolichi Enterprise Limited
+            Here is why contractors and builders choose Brolichi
           </p>
         </div>
       </div>

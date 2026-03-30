@@ -8,7 +8,7 @@ const CTASection = () => {
         <h2 className="cta-title">Ready to Start Your Project ?</h2>
 
         <p className="cta-subtitle">
-          Contact Brolichi Enterprises today. Get a personalised<br></br>
+          Contact Brolichi today. Get a personalised<br></br>
           quote for your build.
         </p>
 

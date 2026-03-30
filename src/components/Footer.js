@@ -66,7 +66,7 @@ Northwest Province, Zambia</li>
         </div>
 
         <div className="footer-bottom">
-          <p>Copyright © 2026 Brolichi Creation Enterprises limited. All rights reserved</p>
+          <p>Copyright © 2026 Brolichi. All rights reserved</p>
         </div>
       </div>
     </footer>

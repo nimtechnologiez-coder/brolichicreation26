@@ -87,7 +87,7 @@ function Testimonials() {
                         <span className="section-subtitle-orange">CLIENT STORIES</span>
                         <h1 className="testimonials-title">What Our Clients Say</h1>
                         <p className="testimonials-subtitle">
-                            Real stories from real businesses that trust Brolichi<br />Enterprises to deliver.
+                            Real stories from real businesses that trust Brolichi<br />to deliver.
                         </p>
                     </div>
                 </header>
@@ -126,7 +126,7 @@ function Testimonials() {
                 <section className="cta-section">
                     <div className="cta">
                         <h1>Ready to Start Your Project ?</h1>
-                        <p>Contact Brolichi Enterprises today. Get a personalised<br />quote for your build.</p>
+                        <p>Contact Brolichi today. Get a personalised<br />quote for your build.</p>
                         <div className="cta-buttons">
                          <a 
                           href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor"
