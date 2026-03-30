@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "../style/landinghero.css";
 import bgImage from "../images/landingbackground.webp";
 
-/* 🔥 CountUp with scroll trigger */
+/*  CountUp with scroll trigger */
 const CountUp = ({ end, duration = 2000, startAnimation }) => {
   const [count, setCount] = useState(0);
 

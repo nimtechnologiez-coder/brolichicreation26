@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             <div className="social-links">
               <a href="/" className="social-icon"><Instagram size={18} /></a>
-              <a href="/" className="social-icon"><Linkedin size={18} /></a>
+              <a href="https://www.linkedin.com/in/brolichi-creation-enterprise-limited-878065110/" className="social-icon" target="_blank" rel="noopener noreferrer"><Linkedin size={18} /></a>
               <a href="https://www.facebook.com/share/18JSDUwV4M/" className="social-icon"  target="_blank"  rel="noopener noreferrer" > <Facebook size={18} /> </a>
               <a href="/" className="social-icon"><Twitter size={18} /></a>
             </div>
@@ -35,21 +35,21 @@ const Footer = () => {
             <h4>Quick Links</h4>
             <ul className="footer-links">
               <li><span className="dotes">•</span><a href="/">Home</a></li>
-              <li><span className="dotes">•</span><a href="/products">Products</a></li>
+              <li><span className="dotes">•</span><a href="/services">Services</a></li>
               <li><span className="dotes">•</span><a href="/about">About Us</a></li>
               <li><span className="dotes">•</span><a href="/testimonials">Testimonials</a></li>
               <li><span className="dotes">•</span><a href="/careers">Careers</a></li>
               <li><span className="dotes">•</span><a href="/contact">Contact</a></li>
-            </ul>
+            </ul> 
           </div>
 
           <div className="footer-col">
             <h4>Our Products</h4>
             <ul className="footer-links">
-              <li><span className="dotes">•</span><a href="/products/cement">Cement, Bricks, Sand &amp; Stones</a></li>
-              <li><span className="dotes">•</span><a href="/products/roofing">Roofing Sheets, Timber &amp; Doors</a></li>
-              <li><span className="dotes">•</span><a href="/products/paints">Paints, Tiles &amp; Finishing Items</a></li>
-              <li><span className="dotes">•</span><a href="/products/electrical">Electrical &amp; Plumbing Supplies</a></li>
+              <li><span className="dotes">•</span>Cement, Bricks, Sand &amp; Stones</li>
+              <li><span className="dotes">•</span>Roofing Sheets, Timber &amp; Doors</li>
+              <li><span className="dotes">•</span>Paints, Tiles &amp; Finishing Items</li>
+              <li><span className="dotes">•</span>Electrical &amp; Plumbing Supplies</li>
             </ul>
           </div>
 
