@@ -50,6 +50,7 @@
 /* TEXT */
 .text {
   color: #64748b;
+  white-space: pre-line;
   font-style: italic;
   margin-top: 25px;
   line-height: 1.6;
