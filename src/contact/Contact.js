@@ -1,9 +1,8 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './Contact.css';
-import emailjs from '@emailjs/browser';
 
 import CTASection from '../landingpages/readyland';
-import { Package, MapPin } from 'lucide-react';
+import { Package, MapPin, Mail, ArrowRight } from 'lucide-react';
 import Footer from '../components/Footer';
 
 const branchesData = [
@@ -13,7 +12,7 @@ const branchesData = [
   { name: "Kabompo", phone: "+260 750 368 867" },
   { name: "Mumbeji", phone: "+260 750 369 338" },
   { name: "Zambezi", phone: "+260 750 369 937" },
-  { name: "Chikeyi", phone: "+260 750 368 845" },
+  { name: "Chiyeki", phone: "+260 750 368 845" },
   { name: "Chavuma", phone: "+260 750 369 078" },
   { name: "Manyama", phone: "+260 750 371 538" },
   { name: "Kisasa", phone: "+260 750 371 601" },
@@ -21,27 +20,6 @@ const branchesData = [
 ];
 
 const Contact = () => {
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(
-      'YOUR_SERVICE_ID',      // replace
-      'YOUR_TEMPLATE_ID',     // replace
-      form.current,
-      'YOUR_PUBLIC_KEY'       // replace
-    )
-    .then(() => {
-      alert('Message sent successfully!');
-      form.current.reset();
-    })
-    .catch((error) => {
-      console.error(error);
-      alert('Failed to send message');
-    });
-  };
 
   return (
     <div className="contact-page">
@@ -99,46 +77,42 @@ const Contact = () => {
         </div>
 
         <div className="contact-form-col">
-          <div className="contact-form-card">
-            <h3>Send Us a Message</h3>
-
-            {/* IMPORTANT: ref + onSubmit */}
-            <form ref={form} onSubmit={sendEmail}>
-
-              <div className="form-row">
-                <div className="form-group">
-                  <label>Full Name</label>
-                  <input type="text" name="user_name" required />
-                </div>
-
-                <div className="form-group">
-                  <label>Email Address</label>
-                  <input type="email" name="user_email" required />
-                </div>
+          <div className="lets-connect-card">
+            <div className="lets-connect-icon-wrapper">
+              <div className="mail-icon-bg">
+                <Mail className="mail-icon" size={36} color="#ffffff" />
+                <div className="at-badge">@</div>
               </div>
+            </div>
+            
+            <h3>Let's connect</h3>
+            <p className="lets-connect-text">
+              Contact us today to learn more about our software and how it can benefit your business.
+            </p>
 
-              <div className="form-row">
-                <div className="form-group">
-                  <label>Phone Number</label>
-                  <input type="tel" name="phone" />
-                </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="lets-connect-btn">
+              Contact us <ArrowRight size={20} />
+            </a>
 
-                <div className="form-group">
-                  <label>Subject</label>
-                  <input type="text" name="subject" />
-                </div>
-              </div>
-
-              <div className="form-group">
-                <label>Message</label>
-                <textarea name="message" rows="5" required></textarea>
-              </div>
-
-              <button type="submit" className="submit-btn">
-                Send Message
-              </button>
-
-            </form>
+            <div className="lets-connect-pattern">
+              <svg width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#ff7a00" fillOpacity="0.05">
+                  <polygon points="100,200 200,200 200,100" />
+                  <polygon points="100,100 200,100 200,0" />
+                  <polygon points="50,150 150,150 150,50" />
+                  <polygon points="0,200 100,200 100,100" />
+                  <polygon points="0,100 100,100 100,0" />
+                </g>
+                <g fill="#ff7a00" fillOpacity="0.1">
+                  <polygon points="150,200 200,200 200,150" />
+                  <polygon points="150,150 200,150 200,100" />
+                  <polygon points="100,200 150,200 150,150" />
+                  <polygon points="100,150 150,150 150,100" />
+                  <polygon points="50,200 100,200 100,150" />
+                   <polygon points="50,150 100,150 100,100" />
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </section>

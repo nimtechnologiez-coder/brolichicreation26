@@ -54,6 +54,31 @@ const WhyChoose = () => {
         ))}
       </div>
 
+      
+      {/* ACTION LINKS */}
+      <div className="why-action-links">
+        <a href="https://www.smatbid.com/register" target="_blank" rel="noopener noreferrer" className="why-action-link">
+          <div className="action-text">
+            Worried about the bulk bidding process?
+          </div>
+          <div className="action-click">Click Here</div>
+        </a>
+
+        <a href="https://www.brolichi.app/investor" target="_blank" rel="noopener noreferrer" className="why-action-link">
+          <div className="action-text">
+            Are you one of our investors?
+          </div>
+          <div className="action-click">Click here to login</div>
+        </a>
+
+        <a href="https://www.brolichi.app/login" target="_blank" rel="noopener noreferrer" className="why-action-link">
+          <div className="action-text">
+            Are you one of our staff members?
+          </div>
+          <div className="action-click">Click here to login</div>
+        </a>
+      </div>
+
     </section>
   );
 };

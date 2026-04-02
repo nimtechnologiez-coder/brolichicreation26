@@ -85,7 +85,7 @@ const AboutPage = () => {
               </div>
 
               <div className="about-divider">
-                <h3>ZMW 7.8M+</h3>
+                <h3>ZMW 8.9M+</h3>
                 <p>Delivered in government building material supplies</p>
               </div>
 
@@ -258,7 +258,7 @@ Partnered with ZEEL and ZEEP government projects to supply building materials to
                 <div className="timeline-content">
                   <h2 className="timeline-year">2025</h2>
                   <h3 className="timeline-title">Milestone
-Over ZMW 7.8 million in government supplies delivered</h3>
+Over ZMW 8.9 million in government supplies delivered</h3>
                   <p className="timeline-desc">
 Reached a landmark figure in general supplies of building materials to government schools under ZEEL and ZEEP projects as of October 2025.                </p>
                 </div>
