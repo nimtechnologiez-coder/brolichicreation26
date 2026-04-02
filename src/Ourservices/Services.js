@@ -9,27 +9,28 @@ import transport from "../images/materials1.webp";
 import vehicle from "../images/materials2.webp";
 import customs from "../images/materials003.webp";
 import Footer from "../components/Footer";
+import CTASection from "../landingpages/readyland";
 const Tick = ({ text }) => (
   <div className="tickos">
     <img src={tickIcon} alt="tick" className="tickos-icon" />
     <p>{text}</p>
   </div>
 );
- 
+
 const Services = () => {
   const images = [bg1, bg2, bg3];
   const [currentIdx, setCurrentIdx] = useState(0);
- 
+
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIdx((prev) => (prev + 1) % images.length);
     }, 5000);
     return () => clearInterval(timer);
   }, [images.length]);
- 
+
   return (
     <div className="services-page">
- 
+
       {/* HEADER CAROUSEL */}
       <div className="headeros">
         {images.map((img, idx) => (
@@ -40,7 +41,7 @@ const Services = () => {
           />
         ))}
       </div>
- 
+
       {/* HEADER TEXT SECTION */}
       <div className="headeros-text-section">
         <div className="headeros-content">
@@ -55,54 +56,54 @@ const Services = () => {
           </p>
         </div>
       </div>
- 
+
       {/* CARD 1 */}
       <div className="cardos card-1">
         <div className="cardos-img">
           <img src={materials} alt="materials" />
         </div>
- 
+
         <div className="cardos-content">
           <p className="tagos">SERVICE RANGE 01</p>
           <h2 className="titleos">Building Materials Supply</h2>
- 
+
           <p className="descos">
             We provide a wide range of high-quality construction materials for residential, commercial, and industrial projects. Our materials are sourced from trusted manufacturers to ensure
- 
+
             durability, reliability, and consistent supply
           </p>
- 
+
           <div className="listos-row">
             <div>
               <Tick text="Cement & construction aggregates" />
               <Tick text="Bricks, blocks, & masonry materials" />
               <Tick text="Sand, gravel, & paving materials" />
             </div>
- 
+
             <div>
               <Tick text="Roofing sheets & structural timber" />
               <Tick text="Paints, tiles, & finishing materials" />
               <Tick text="Electrical & plumbing supplies" />
             </div>
           </div>
- 
-          <a 
-  href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform?usp=header"
-  className="btnos-dark"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Enquire Now &nbsp; →
-</a>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScnbtU9eDCiHEX94OGKGYol3v5MjU6kRvJpqiglZnrHZHgoUA/viewform?usp=header"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enquire Now &nbsp; →
+          </a>
         </div>
       </div>
- 
+
       {/* CARD 2 */}
       <div className="cardos card-2 reverse">
         <div className="cardos-img">
           <img src={transport} alt="transport" />
         </div>
- 
+
         <div className="cardos-content">
           <p className="tagos">SERVICE RANGE 02</p>
           <h2 className="titleos">Transport & Logistics Services</h2>
@@ -117,128 +118,111 @@ const Services = () => {
               <Tick text="Local & regional delivery services" />
               <Tick text="Bulk cargo transport solutions" />
             </div>
- 
+
             <div>
               <Tick text="Reliable scheduling & tracking" />
               <Tick text="Safe handling of fragile materials" />
               <Tick text="On-time project site delivery" />
             </div>
           </div>
- 
-          <a 
+
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfzLirNhfoYW5U_zZxlE59sEQuo6lVpoegM6s-r5uUQIJc-PQ/viewform?usp=publish-editor"
             className="btnos-dark"
             target="_blank"
             rel="noopener noreferrer"
           >
-          Enquire Now &nbsp; →
+            Enquire Now &nbsp; →
           </a>
         </div>
       </div>
- 
+
       {/* CARD 3 */}
       <div className="cardos card-3">
         <div className="cardos-img">
           <img src={vehicle} alt="Motor Vehicle Importation" />
         </div>
- 
+
         <div className="cardos-content">
           <p className="tagos">SERVICE RANGE 03</p>
           <h2 className="titleos">Motor Vehicle Importation</h2>
- 
+
           <p className="descos">
             We assist individuals and businesses in importing motor vehicles from trusted international
             suppliers. Our team manages the entire process to ensure a smooth and hassle-free
             vehicle import experience.
           </p>
- 
+
           <div className="listos-row">
             <div>
               <Tick text="Importation of new & used vehicles" />
               <Tick text="Vehicle sourcing from international markets" />
               <Tick text="Import documentation support" />
             </div>
- 
+
             <div>
               <Tick text="Compliance with import regulations" />
               <Tick text="Safe & secure shipping arrangements" />
               <Tick text="Delivery coordination after arrival" />
             </div>
           </div>
- 
-          <a 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeXMMFoiyogLsik8kkFIQKyR82kowY5xQid-BiRjVLMUXNcOA/viewform?usp=publish-editor"
-          className="btnos-dark"
-          target="_blank"
-          rel="noopener noreferrer"
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeXMMFoiyogLsik8kkFIQKyR82kowY5xQid-BiRjVLMUXNcOA/viewform?usp=publish-editor"
+            className="btnos-dark"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-          Enquire Now &nbsp; →
+            Enquire Now &nbsp; →
           </a>
         </div>
       </div>
- 
+
       {/* CARD 4 */}
       <div className="cardos card-4 reverse">
         <div className="cardos-img">
           <img src={customs} alt="Customs Clearing & Forwarding" />
         </div>
- 
+
         <div className="cardos-content">
           <p className="tagos">SERVICE RANGE 04</p>
           <h2 className="titleos">Customs Clearing & Forwarding</h2>
- 
+
           <p className="descos">
             Our customs clearing and forwarding services simplify international trade by handling
             documentation, customs procedures, and logistics. We ensure your cargo moves quickly
             and efficiently through ports and borders.
           </p>
- 
+
           <div className="listos-row">
             <div>
               <Tick text="Import & export customs clearance" />
               <Tick text="Documentation preparation & processing" />
               <Tick text="Freight forwarding coordination" />
             </div>
- 
+
             <div>
               <Tick text="Port handling & cargo inspection support" />
               <Tick text="Duty & tax processing assistance" />
               <Tick text="Efficient cargo release & delivery" />
             </div>
           </div>
- 
-            <a 
+
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScIxw9prYEooHJq2TcUe92FkWxiygT_pbdOBUDYqs6XyoTSyw/viewform?usp=publish-editor"
             className="btnos-dark"
             target="_blank"
             rel="noopener noreferrer"
-            >
-            Enquire Now &nbsp; →
-            </a>
-          </div>
-      </div>
- 
-      {/* CTA */}
-      <div className="ctaos">
-        <h1>Ready to Start Your Project ?</h1>
-        <p>Contact us today and get a personalised quote.</p>
- 
-        <div className="ctaos-buttons">
-          <a 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSd1Rq3eHYWFfeSH9n23zfq4UVnREp3aXcRZFhjpRtBU2sZSLA/viewform?usp=publish-editor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-btn primary"
           >
-          Request a Quotation →
+            Enquire Now &nbsp; →
           </a>
-          <a href="/contact" className="btnos-outline">Contact Us</a>
         </div>
       </div>
+
+      <CTASection/>
       <Footer/>
     </div>
   );
 };
- 
+
 export default Services;
- 
