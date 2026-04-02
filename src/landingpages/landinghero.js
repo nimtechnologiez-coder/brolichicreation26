@@ -90,6 +90,21 @@ const LandingHero = () => {
           </a>
         </div>
 
+        {/* LOGIN ACTIONS */}
+        <div className="login-actions">
+          <a href="https://www.brolichi.app/login" target="_blank" rel="noopener noreferrer" className="login-btn">
+            Staff Login
+          </a>
+          <span className="separator">|</span>
+          <a href="https://www.smatbid.com/login" target="_blank" rel="noopener noreferrer" className="login-btn">
+            Smatbid Login
+          </a>
+          <span className="separator">|</span>
+          <a href="https://www.brolichi.app/investor" target="_blank" rel="noopener noreferrer" className="login-btn">
+            Investor Login
+          </a>
+        </div>
+
         {/* 🔥 STATS WITH ANIMATION */}
         <div className="stats" ref={statsRef}>
           <div>
