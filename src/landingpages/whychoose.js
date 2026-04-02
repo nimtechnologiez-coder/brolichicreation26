@@ -27,7 +27,7 @@ const data = [
 const WhyChoose = () => {
   return (
     <section className="whychoose">
-      
+
       {/* TOP HEADER */}
       <div className="why-top">
         <div className="left">
@@ -54,7 +54,7 @@ const WhyChoose = () => {
         ))}
       </div>
 
-      
+
       {/* ACTION LINKS */}
       <div className="why-action-links">
         <a href="https://www.smatbid.com/register" target="_blank" rel="noopener noreferrer" className="why-action-link">
